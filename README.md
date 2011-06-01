@@ -11,10 +11,9 @@ Good for debugging webhooks, locally.
 
 To install you will need [node](http://nodejs.org/) 0.4.x and [npm](http://npmjs.org/) 1.x.
 
-    npm install -g coffee-script
     git clone https://github.com/hecticjeff/growler
     cd growler
     npm install
-    coffee index.coffee
+    ./node_modules/.bin/coffee index.coffee
 
 Copyright (c) Chris Mytton
