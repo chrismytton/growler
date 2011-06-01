@@ -1,0 +1,22 @@
+{
+  "author": "Chris Mytton <self@hecticjeff.net> (http://hecticjeff.net)",
+  "name": "growler",
+  "description": "express server that shows a growl notification for an incoming request",
+  "version": "0.0.0",
+  "homepage": "https://github.com/hecticjeff/growler",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hecticjeff/growler.git"
+  },
+  "main": "index",
+  "engines": {
+    "node": "~0.4.8"
+  },
+  "dependencies": {
+    "express": "2.x",
+    "growl": "1.1.x"
+  },
+  "devDependencies": {
+    "coffee-script": "1.x"
+  }
+}
