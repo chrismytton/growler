@@ -1,5 +1,4 @@
 ```
-
                          _           
   __ _ _ __ _____      _| | ___ _ __ 
  / _` | '__/ _ \ \ /\ / / |/ _ \ '__|
@@ -17,3 +16,5 @@ To install you will need [node](http://nodejs.org/) 0.4.x and [npm](http://npmjs
     cd growler
     npm install
     coffee index.coffee
+
+Copyright (c) Chris Mytton
