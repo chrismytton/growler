@@ -2,7 +2,7 @@
 express = require 'express'
 
 # Growl for those damn notifications
-growl = require 'growl'
+alerter = require if process.platform is 'darwin' then 'growl' else 'libnotify'
 
 # Build an express app that catches all requests and displays a growl
 # message.
@@ -12,7 +12,7 @@ app = express.createServer(
 
   # Catch all requests and display a growl
   (req, res) ->
-    growl.notify JSON.stringify(req.body), { title: req.url, app: "Growler" }, ->
+    alerter.notify JSON.stringify(req.body), { title: req.url, app: "Growler" }, ->
       # Send the response as a 200, OK
       res.send()
 )

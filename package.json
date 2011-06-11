@@ -14,7 +14,8 @@
   },
   "dependencies": {
     "express": "2.x",
-    "growl": "1.1.x"
+    "growl": "1.1.x",
+    "libnotify": "1"
   },
   "devDependencies": {
     "coffee-script": "1.x"
