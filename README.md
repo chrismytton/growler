@@ -14,6 +14,6 @@ To install you will need [node](http://nodejs.org/) 0.4.x and [npm](http://npmjs
     git clone https://github.com/hecticjeff/growler
     cd growler
     npm install
-    ./node_modules/.bin/coffee index.coffee
+    npm start
 
 Copyright (c) Chris Mytton
