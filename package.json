@@ -9,6 +9,9 @@
     "url": "git://github.com/hecticjeff/growler.git"
   },
   "main": "index",
+  "scripts": {
+    "start": "coffee ."
+  },
   "engines": {
     "node": "~0.4.8"
   },
