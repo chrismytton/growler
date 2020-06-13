@@ -16,7 +16,7 @@
     "node": "~0.4.8"
   },
   "dependencies": {
-    "express": "2.x",
+    "express": "4.x",
     "growl": "1.1.x",
     "libnotify": "1",
     "coffee-script": "1.x"
